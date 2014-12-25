@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Introduction to the DOM</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <script>
+        // We can't manipulate the DOM until the document
+        // is fully loaded
+
+        window.onload = function(){
+          // Find all the <li> elements in the document
+          var li = document.getElementsByTagName("li");
+
+          // And add a ared border around all of them 
+          for (var j = 0; j < li.length; j++){
+            li[j].style.border = "1px solid #000"
+          }
+
+          // Locate the element with an ID of 'everywhere'
+          var every = document.getElementById('everywhere');
+
+          // And remove it from the document
+          every.parentNode.removeChild( every );
+        }
+        </script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+       <h1>Introduction to the DOM</h1>
+       <p class="test">There are a number of reasons why the DOM is awesome, here are some :</p>
+        
+      <ul>
+        <li id="everywhere">It can be found everywhere.</li>
+        <li class="test">It's easy to use.</li>
+        <li class="test">It can help you to find what you want, really quickly.</li>
+      </ul>
+        
+
+    </body>
+</html>
