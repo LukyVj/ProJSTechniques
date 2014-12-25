@@ -8,3 +8,5 @@ I decided to create this project after Christmas, because I got the book of John
 I hope this github project could help some of you to discover the power of Javascript, and who knows, maybe you'll love it !
 
 
+### Object-Oriented Javascript
++ [Listing 1-1](http://lukyvj.github.io/ProJSTechniques/examples/listing1-1.html)
