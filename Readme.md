@@ -8,13 +8,13 @@ I decided to create this project after Christmas, because I got the book of John
 I hope this github project could help some of you to discover the power of Javascript, and who knows, maybe you'll love it !
 
 ###Chapter 1
-#### Modern JavaScript Programming
+##### Modern JavaScript Programming
 + [Example 1 - Object-Oriented Javascript Representing a lecture and a Schedule of Lectures](http://lukyvj.github.io/ProJSTechniques/examples/example_1.html)
 + [Example 2 - Using the Document Object Model to Locate and Manipulate Different DOM Elements](http://lukyvj.github.io/ProJSTechniques/examples/example_2.html)
 + [Example 3 - Using the DOM and Events to Provide Some Visual Effects](http://lukyvj.github.io/ProJSTechniques/examples/example_3.html)
 
 ###Chapter 2
-#### Object-Oriented JavaScript
+##### Object-Oriented JavaScript
 + [Example 4 - Example of Multiple variable referring to a single object](http://lukyvj.github.io/ProJSTechniques/examples/example_4.html)
 + [Example 5 - Example of a self-modifying object](http://lukyvj.github.io/ProJSTechniques/examples/example_4.html)
 + [Example 6 - Changing the reference of an object while maintaining integrity](http://lukyvj.github.io/ProJSTechniques/examples/example_6.html)
