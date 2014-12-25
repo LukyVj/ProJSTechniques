@@ -24,37 +24,37 @@ I hope this github project could help some of you to discover the power of Javas
 + [Example 10 -  Example of Using Typeof to determine the type of an Object](http://lukyvj.github.io/ProJSTechniques/examples/example_10.html)
 
 ###Chapter 3
-#### Creating Reusable Code
+##### Creating Reusable Code
 
 ###Chapter 4
-#### Tools for debugging and Testing
+##### Tools for debugging and Testing
 
 ###Chapter 5
-#### The Document Object Model
+##### The Document Object Model
 
 ###Chapter 6
-#### Events
+##### Events
 
 ###Chapter 7
-#### Javascript and CSS
+##### Javascript and CSS
 
 ###Chapter 8
-#### Improving Forms
+##### Improving Forms
 
 ###Chapter 9
-#### Building an Image Gallery
+##### Building an Image Gallery
 
 ###Chapter 10
-#### Introduction to Ajax
+##### Introduction to Ajax
 
 ###Chapter 11
-#### Enhancing Blogs with Ajax
+##### Enhancing Blogs with Ajax
 
 ###Chapter 12
-#### Autocomplete Search
+##### Autocomplete Search
 
 ###Chapter 13
-#### An Ajax Wiki
+##### An Ajax Wiki
 
 
 ## Want more ? 
