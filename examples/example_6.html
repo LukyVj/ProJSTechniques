@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Changing the reference of an object while maintaining integrity</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../style/style.css">
+
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+  <script>
+
+ // Set items to an array (object) of strings
+ var items = new Array("One", "two", "Three");
+
+ // Set itemsRef to a referece to items
+ var itemsRef = items;
+
+ // Set items to equal a new new Object
+ items = new Array("new", "array");
+
+ // items and itemsRef now point to different objects.
+ // items points to new Array("New", "Array");
+ // itemsRef points to new Array("One", "Two", "Three")
+ alert( items !== itemsRef );
+
+</script>
+</head>
+<body>
+<!--[if lt IE 7]>
+  <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+  <![endif]-->
+
+  <h1>Chapter 1 - Modern Javascript Programming </h1>
+  <h2>Changing the reference of an object while maintaining integrity</h2> 
+  
+
+</body>
+</html>
+
+
+

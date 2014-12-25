@@ -14,3 +14,4 @@ I hope this github project could help some of you to discover the power of Javas
 + [Example 3](http://lukyvj.github.io/ProJSTechniques/examples/example_3.html)
 + [Example 4](http://lukyvj.github.io/ProJSTechniques/examples/example_4.html)
 + [Example 5](http://lukyvj.github.io/ProJSTechniques/examples/example_5.html)
++ [Example 6](http://lukyvj.github.io/ProJSTechniques/examples/example_6.html)
