@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title> Chapter 2 -  Two examples of function overloading in Javascript</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../style/style.css">
+
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+  <script>
+
+ // A simple function for sending messages
+ function sendMessage( msg, obj ){
+  // If both a message and an object are provided
+  if( arguments.length == 2 ){
+    // Send the message to the object
+    obj.handleMsg( msg );
+  }
+  // Otherwise, assume that only a message was provided
+  else{
+    // So just display the default error message
+    alert( msg )
+  }
+
+  // Call the function with one argument - displaying the message using an alert
+  sendMessage("Hello, World!");
+
+  // Otherwise, we can pass in our own object that handles 
+  // a different way of displaying information
+  sendMessage( "How are you", {
+    handleMsg: function( msg ){
+      alert( "This is a custom message: " + msg );
+    }
+  });
+
+  // A function that takes any number of arguments and makes
+  // an array out of them
+  function makeArray(){
+    // The temporary array
+    var arr = [];
+
+    // Go through each of the submitted arguments
+    for (var i = 0; i < arguments.length; i++){
+      arr.push( arguments[i] );
+    }
+
+    // Return the resulting array
+    return arr;
+  }
+ }
+</script>
+</head>
+<body>
+<!--[if lt IE 7]>
+  <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+  <![endif]-->
+
+  <h1>Chapter 2 - Object Oriented Javascript </h1>
+  <h2>Two examples of function overloading in Javascript</h2> 
+  
+
+</body>
+</html>
+
+
+
