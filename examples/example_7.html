@@ -6,7 +6,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Chapter 2 - Example of a self-modifying object</title>
+  <title> Chapter 2 -  Example of Object modification resulting in a new object, not a self-modified object</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="../style/style.css">
@@ -15,19 +15,21 @@
 
   <script>
 
- // Create an array of items
- var items = new Array( "One", "Two", "Three");
+ // Set item equal to a new string object
+ var item = "test";
 
- // Create a reference to the array of items
- var itemsRef = items;
+ // itemRef now refers to the same string object 
+ var itemRef = item;
 
- // Add an item to the original array
- items.push( "four" );
+ // Concatenate some new text onto the string object
+ // NOTE : This creates a new object, and does not modify
+ // the original object
 
- // The length of each array should be the same, 
- // since they both point to the same array object
- alert( items.length == itemsRef.length );
+ item += "ing";
 
+ // The values of item and itemRef are NOT equal, as a whole
+ // new string object has been created
+ alert( item != itemRef)
 </script>
 </head>
 <body>
@@ -35,8 +37,8 @@
   <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
   <![endif]-->
 
-  <h1>Chapter 2 - Object-Oriented Javascript </h1>
-  <h2>Example of a self-modifying object</h2> 
+  <h1>Chapter 2 - Object Oriented Javascript </h1>
+  <h2>Example of Object modification resulting in a new object, not a self-modified object</h2> 
   
 
 </body>
