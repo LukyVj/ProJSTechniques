@@ -1,4 +1,8 @@
+<h1>Chapter 1 - Modern Javascript Programming </h1>
+<h2>Object-Oriented Javascript</h2>
+
 <script>
+
   // The Constructor for our 'Lecture'
   // Takes two strings, name and teacher.
 
@@ -23,14 +27,29 @@
   // A method for constructing a string representing
   // a Schedule of Lectures
 
-Schedule.prototype.display = function(){
-  var str = "";
+  Schedule.prototype.display = function(){
+    var str = "";
 
   // Go through each of the lectures, building up
   // a string of information
-  for ( var i = 0; i < thus.lectures.length; i++)
+  for ( var i = 0; i < this.lectures.length; i++)
     str += this.lectures[i].display() + " ";
 
   return str;
 };
+
+// Create a new Schedule object and save it in
+// The variable 'mySchedule'
+
+var mySchedule = new Schedule([
+  // Create an array of the Lecture objects, which
+  // are passed in as the only argument to the Lecture object
+  new Lecture("Gym", "Mr. Smith"),
+  new Lecture("Math", "Mrs. Jones"),
+  new Lecture("English", "TBD")
+  ]);
+
+// Display the Schedule information as a pop-up alert
+alert( mySchedule.display() );
+
 </script>
