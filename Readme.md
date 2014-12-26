@@ -56,6 +56,9 @@ I hope this github project could help some of you to discover the power of Javas
 ###Chapter 13
 ##### An Ajax Wiki
 
+###Chapter 14
+##### Where is JavaScript going ? 
++ [Example Clock -  Drawing an animated clock unsing the Canvas API](http://lukyvj.github.io/ProJSTechniques/examples/example_clock.html)
 
 ## Want more ? 
 Because I will make this repo grow step by step while I'm reading the book, some desired examples may not be on the list yet.
